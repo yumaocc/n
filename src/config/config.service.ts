@@ -22,7 +22,7 @@ export class ConfigService {
 
     public async getMongoConfig() {
         return {
-            uri: 'mongodb+srv://' + this.get('MONGO_USER') + ':' + this.get('MONGO_PASSWORD') + '@' + this.get('MONGO_HOST') + '/' + this.get('MONGO_DATABASE'),
+            uri: 'mongodb+srv://2310087518:nW11eogX1EfRUgRu@cluster0.6xs0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
             useNewUrlParser: true,
             useUnifiedTopology: true,
         };
